@@ -8,3 +8,4 @@ def copy_file(command: str) -> None:
                     file_out.write(file_in.read())
             except FileNotFoundError:
                 print(f"Error: {file_name} not found")
+    return
